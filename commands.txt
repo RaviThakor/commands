@@ -11,3 +11,5 @@ commands :
 -> git status	// if something get change in our project it will show othervise doesn't show anything
 -> git clone github url	//copies data to given github url
 -> git push origin master	//push changes to remote server
+
+-> git remote add anyname url of empty repository which you creted in github
