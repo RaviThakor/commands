@@ -1,0 +1,13 @@
+commands : 
+
+-> git config --global user.name "your name"
+-> git config --global user.email your email
+-> git config --list
+-> git init	//to make local repository
+-> git add . 	//. to add all the changes into repository
+-> git commit -m "commit log here"		//-m means message to track snapshots
+-> git log	// shows all the commit history(commit logs)
+-> git log -2 	//will only show last 2 commands
+-> git status	// if something get change in our project it will show othervise doesn't show anything
+-> git clone github url	//copies data to given github url
+-> git push origin master	//push changes to remote server
