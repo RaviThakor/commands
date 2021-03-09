@@ -15,3 +15,5 @@ commands :
 -> git remote add anyname url of empty repository which you creted in github
 -> git push origin master	//push changes to remote server
 -> git pull origin master	//pull chages to local system(from github)
+
+-> nothing testing
