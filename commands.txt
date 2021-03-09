@@ -10,6 +10,8 @@ commands :
 -> git log -2 	//will only show last 2 commands
 -> git status	// if something get change in our project it will show othervise doesn't show anything
 -> git clone github url	//copies data to given github url
--> git push origin master	//push changes to remote server
+
 
 -> git remote add anyname url of empty repository which you creted in github
+-> git push origin master	//push changes to remote server
+-> git pull origin master	//pull chages to local system(from github)
