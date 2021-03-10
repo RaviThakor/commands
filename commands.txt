@@ -15,5 +15,24 @@ commands :
 -> git remote add anyname url of empty repository which you creted in github
 -> git push origin master	//push changes to remote server
 -> git pull origin master	//pull chages to local system(from github)
+-> git pull origin gh-pages
 
--> the quick brown fox jumped over the lazy dogs.
+-> git branch
+-> git branch branch_name
+-> git checkout branch_name	to make it active
+
+-> git push origin brachname
+-> git push -u origin textdoc(branch name)
+-> git merge branchname (active branch must be master branch)
+
+-> git clone --branch branch_name github repository url
+-> git checkout -b feature	//create new branch and make it active
+-> git reset filename 
+	or just			//to remove it from staging area
+-> git reset 		
+
+-> git reset HEAD~1		//last commit will be removed and if we write HEAD~2(HEAD is a pointer)
+				//then last two commit will be removed
+
+-> git reset --hard hashcode	//means our latest commit will be this hashcodes commit
+				//all latest commit till this hashcodes commit will be gone(erase data)
